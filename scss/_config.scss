@@ -1,0 +1,34 @@
+$dark-blue: #262e38;
+$very-dark-blue: #131518;
+$light-grey: #969fad;
+$medium-gray: #7c8798;
+$orange: #fc7614;
+$white: #fff;
+$black-gradient: linear-gradient(#232a34, #181e27);
+
+$ff-s: 'Overpass', sans-serif;
+$f-size: 15px;
+
+//creating a map
+$font-weights: (
+    "regular": 400,
+    "bold": 700
+);
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin media-xl {
+    @media screen and (min-width: 1600px) {
+        @content;
+    }
+}
